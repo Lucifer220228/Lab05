@@ -45,9 +45,9 @@ async function basicCrud() {
     }
     
     // 4. DELETE 刪除
-    sql = 'DELETE FROM STUDENT WHERE Student_ID = ?';
-    await conn.query(sql, ['S10810001']);
-    console.log('✅ 已刪除該學生');
+    //sql = 'DELETE FROM STUDENT WHERE Student_ID = ?';
+    //await conn.query(sql, ['S10810001']);
+    //console.log('✅ 已刪除該學生');
     
   } catch (err) {
     console.error('操作失敗：', err);
